@@ -18,4 +18,5 @@ response = client.chat.completions.create(
     ]
 )
 
+print("Leave Request Email:")
 print(response.choices[0].message.content)
